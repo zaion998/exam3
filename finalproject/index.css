@@ -1,0 +1,40 @@
+body{
+    padding: 20em;
+    width: 100%;
+    height: 300%;
+    margin:20;
+    background-image: url('./imgs/bck4.jpg') ;
+    background-size:cover;
+    background-position:center;
+    background-repeat:repeat;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    display: block;
+}
+a{
+    font-size: 40px;
+    margin:0;
+    padding: 0;
+    text-align: center;
+    font-family: 'arial';
+    position: absolute;
+    top: 45%;
+    Left: 50%; 
+    color: white; 
+    transform: translateX(-50%) translateY(-50%);
+
+}
+h1{
+    font-size: 2.5em;
+    color: whitesmoke;
+    margin:0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Garamond';
+    position: absolute;
+    top: 50%;
+    Left: 50%;  
+    transform: translateX(-50%) translateY(-50%);
+
+}
