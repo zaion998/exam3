@@ -1,0 +1,79 @@
+body{
+    padding: 20em;
+    width: 70%;
+    height: 300%;
+    margin:20;
+    background-image: url('./imgs/bck4.jpg') ;
+    background-size:cover;
+    background-position:center;
+    background-repeat:repeat;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    display: block;
+}
+h1{
+    font-size: 100px;
+    color: whitesmoke;
+    margin:0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Garamond';
+    position: absolute;
+    top: 10%;
+    Left: 37%;  
+    
+}
+h3{font-size: 50px;
+    color: whitesmoke;
+    margin:0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Garamond';
+    position: absolute;
+    top: 20%;
+    Left: 43%;  
+
+}
+a{
+    font-size: 40px;
+    margin:0;
+    padding: 0;
+    text-align: center;
+    font-family: 'arial';
+    position: absolute;
+    top: 70%;
+    Left: 85%; 
+    color: white; 
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.flexbox-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexbox-item{
+    width: 200px;
+    margin: 10px;
+    border: 3px solid rgb(204, 14, 62);
+    background-color: #6754d6;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    font-family: 'Garamond';
+    top: 10%;
+    Left: 30%; 
+    
+}
+
+.flexbox-item-1 {
+    min-height: 100px;
+    min-width: 100px;
+    
+    
+}
+
+
