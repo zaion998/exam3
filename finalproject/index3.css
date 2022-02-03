@@ -36,16 +36,8 @@ h3{font-size: 50px;
 
 }
 a{
-    font-size: 40px;
-    margin:0;
-    padding: 0;
-    text-align: center;
     font-family: 'arial';
-    position: absolute;
-    top: 70%;
-    Left: 85%; 
     color: white; 
-    transform: translateX(-50%) translateY(-50%);
 }
 
 .flexbox-container{
@@ -74,6 +66,19 @@ a{
     min-width: 100px;
     
     
+}
+h2 {
+    font-size: 40px;
+    margin:0;
+    padding: 0;
+    text-align: center;
+    font-family: 'arial';
+    position: absolute;
+    top: 70%;
+    Left: 85%; 
+    color: white; 
+    transform: translateX(-50%) translateY(-50%);
+
 }
 
 
