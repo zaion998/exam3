@@ -1,0 +1,65 @@
+.elon{
+    font-family: 'Spline Sans', sans-serif; 
+    background-image: linear-gradient(rgba(109, 110, 110, 0.9),rgba(124, 125, 126, 0.9)),url(../imgs/1.jpg); 
+}
+
+.beast{
+    font-family: 'Spline Sans', sans-serif; 
+    background-image: linear-gradient(rgba(109, 110, 110, 0.9),rgba(124, 125, 126, 0.9)),url(../imgs/2.png);
+}
+
+.pew{
+    font-family: 'Spline Sans', sans-serif; 
+    background-image: linear-gradient(rgba(109, 110, 110, 0.9),rgba(124, 125, 126, 0.9)),url(../imgs/3.jpg); 
+}
+
+.keanu{
+    font-family: 'Spline Sans', sans-serif; 
+    background-image: linear-gradient(rgba(109, 110, 110, 0.9),rgba(124, 125, 126, 0.9)),url(../imgs/4.jpg);
+}
+
+.stan{
+    font-family: 'Spline Sans', sans-serif; 
+    background-image: linear-gradient(rgba(109, 110, 110, 0.9),rgba(124, 125, 126, 0.9)),url(../imgs/5.jpg);
+}
+
+body{
+    margin-top: 23%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    color: white;
+    font-size: 40px;
+}
+
+.result-print{
+    text-decoration: underline;
+    font-size: 20px;
+    color: white;
+}
+
+img{
+    position: absolute;
+    top: 140px;
+    left: 800px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: 10px 10px #5c5959
+}
+
+button{
+    color: black;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}

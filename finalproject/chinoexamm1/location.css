@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Hind Siliguri', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+.header-local{
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 150px;
+
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.nav-links button{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: transparent;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.box{
+    width: 100%;
+    height: 600px;
+    padding: 40px 60px;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.box p{
+    font-size: 30px;
+    
+}
+
+.box h1{
+    font-size: 50px;
+    text-shadow:  0px 0px 5px #000;
+}
+
+.title{
+    width: 100%;
+    top: 50%;
+    padding: 40px 60px;
+    color: white;
+    text-align: center;
+}
+
+.title h1{
+    font-size: 50px;
+    text-shadow:  0px 0px 5px #000;
+}
+
+
+.starter{
+    min-height: 100vh;
+    width: 100%;
+    background-image:  linear-gradient(rgba(2, 5, 19, 0.7),rgba(2, 6, 20, 0.7)),url(images/starter.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.section-1{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/greatwall.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.section-2{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(2, 5, 19, 0.7),rgba(2, 6, 20, 0.7)),url(images/greatwall-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.section-3{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/forbiddencity.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.section-4{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(2, 5, 19, 0.7),rgba(2, 6, 20, 0.7)),url(images/forbiddencity-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.section-5{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/Army.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.section-6{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(2, 5, 19, 0.7),rgba(2, 6, 20, 0.7)),url(images/Army-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.section-7{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/summer.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.section-8{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(2, 5, 19, 0.7),rgba(2, 6, 20, 0.7)),url(images/summer-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.section-9{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/river.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.section-10{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(2, 5, 19, 0.7),rgba(2, 6, 20, 0.7)),url(images/river-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.section-11{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/panda.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.section-12{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(2, 5, 19, 0.7),rgba(2, 6, 20, 0.7)),url(images/panda-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.section-13{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/gorges.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.section-14{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(2, 5, 19, 0.7),rgba(2, 6, 20, 0.7)),url(images/gorges-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.section-15{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/garden.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.section-16{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(2, 5, 19, 0.7),rgba(2, 6, 20, 0.7)),url(images/garden-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.section-17{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/potala.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.section-18{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(2, 5, 19, 0.7),rgba(2, 6, 20, 0.7)),url(images/potala-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.section-19{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/tower.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.section-20{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(2, 5, 19, 0.7),rgba(2, 6, 20, 0.7)),url(images/tower-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}

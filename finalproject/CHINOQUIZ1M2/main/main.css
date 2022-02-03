@@ -1,0 +1,45 @@
+html {
+    font-family: 'Spline Sans', sans-serif;
+    background-color: grey;   
+}
+
+.header {
+    background-color: rgb(202, 85, 85);
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: underline;
+    position: fixed;
+    top: 30%;
+    left: 38%;
+    color: white;
+}
+
+.button-container {
+    position: absolute;
+    top: 50%;
+    left: 37%;
+    align-items: center;
+}
+
+button {
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+.mySlides {
+    object-fit: fill;
+    overflow: hidden;
+    display:none;
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
