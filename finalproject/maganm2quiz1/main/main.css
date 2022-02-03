@@ -1,0 +1,48 @@
+html {
+    font-family: 'Spline Sans', sans-serif;
+    background-color: rgb(17, 4, 4);   
+}
+
+.header {
+    background-color: rgb(86, 140, 226);
+    padding: 10px;
+    border-radius: 10px;
+    position: center;
+    top: 30%;
+    left: 38%;
+    color: white;
+}
+
+.button-container {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    align-items: center;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+  }
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+.mySlides {
+    object-fit: fill;
+    overflow: hidden;
+    display:none;
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}

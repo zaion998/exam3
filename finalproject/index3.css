@@ -24,7 +24,8 @@ h1{
     Left: 37%;  
     
 }
-h3{font-size: 50px;
+h2 {
+    font-size: 50px;
     color: whitesmoke;
     margin:0;
     padding: 0;
@@ -32,7 +33,17 @@ h3{font-size: 50px;
     font-family: 'Garamond';
     position: absolute;
     top: 20%;
-    Left: 43%;  
+    Left: 55%; 
+}
+h3{    font-size: 50px;
+    color: whitesmoke;
+    margin:0;
+    padding: 0;
+    text-align: justify;
+    font-family: 'Garamond';
+    position: absolute;
+    top: 20%;
+    Left: 30%;  
 
 }
 a{
@@ -50,14 +61,15 @@ a{
 .flexbox-item{
     width: 200px;
     margin: 10px;
-    border: 3px solid rgb(204, 14, 62);
-    background-color: #6754d6;
+    border: 3px solid rgb(0, 0, 0,0.5);
+    background-color: rgba(153, 0, 255, 0.5);
     text-align: center;
     line-height: 75px;
     font-size: 30px;
     font-family: 'Garamond';
     top: 10%;
     Left: 30%; 
+    border-radius: 15px;
     
 }
 
@@ -67,18 +79,12 @@ a{
     
     
 }
-h2 {
-    font-size: 40px;
-    margin:0;
-    padding: 0;
-    text-align: center;
-    font-family: 'arial';
-    position: absolute;
-    top: 70%;
-    Left: 85%; 
-    color: white; 
-    transform: translateX(-50%) translateY(-50%);
 
+.nav a:hover{
+    background-color: #000;
+}
+.nav .current{
+    background-color:red;
 }
 
 

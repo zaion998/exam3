@@ -1,0 +1,68 @@
+.nelson{
+    font-family: 'Spline Sans', sans-serif; 
+    background-image: linear-gradient(rgba(109, 110, 110, 0.9),rgba(124, 125, 126, 0.9)),url(../imgs/wee.jpg); 
+}
+
+.steve{
+    font-family: 'Spline Sans', sans-serif; 
+    background-image: linear-gradient(rgba(109, 110, 110, 0.9),rgba(124, 125, 126, 0.9)),url(../imgs/wee.jpg);
+}
+
+.walt{
+    font-family: 'Spline Sans', sans-serif; 
+    background-image: linear-gradient(rgba(109, 110, 110, 0.9),rgba(124, 125, 126, 0.9)),url(../imgs/wee.jpg); 
+}
+
+.keanu{
+    font-family: 'Spline Sans', sans-serif; 
+    background-image: linear-gradient(rgba(109, 110, 110, 0.9),rgba(124, 125, 126, 0.9)),url(../imgs/wee.jpg);
+}
+
+.oprah{
+    font-family: 'Spline Sans', sans-serif; 
+    background-image: linear-gradient(rgba(109, 110, 110, 0.9),rgba(124, 125, 126, 0.9)),url(../imgs/wee.jpg);
+}
+
+body{
+    margin-top: 23%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    color: white;
+    font-size: 40px;
+}
+
+.result-print{
+    
+    font-size: 20px;
+    color: white;
+}
+
+img{
+    position: absolute;
+    top: 140px;
+    left: 800px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: 10px 10px #5c5959
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+  }
+
+button:hover{
+    background-color: black;
+    color: white;
+}

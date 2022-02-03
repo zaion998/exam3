@@ -24,40 +24,44 @@ h1{
     Left: 37%;  
     
 }
-h3{font-size: 50px;
+h3{
+    font-size: 50px;
     color: whitesmoke;
     margin:0;
     padding: 0;
-    text-align: center;
+    text-align: justify;
     font-family: 'Garamond';
     position: absolute;
     top: 20%;
-    Left: 40%;  
+    Left: 30%;  
 
 }
 a{
     font-family: 'arial';
     color: white; 
+
 }
 
 .flexbox-container{
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: justify;
     justify-content: center;
+    
 }
 
 .flexbox-item{
     width: 200px;
     margin: 10px;
-    border: 3px solid rgb(204, 14, 62);
-    background-color: #6754d6;
+    border: 3px solid rgb(0, 0, 0,0.5);
+    background-color: rgba(153, 0, 255, 0.5);
     text-align: center;
     line-height: 75px;
     font-size: 30px;
     font-family: 'Garamond';
     top: 10%;
     Left: 30%; 
+    border-radius: 15px;
     
 }
 
@@ -69,15 +73,20 @@ a{
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 50px;
+    color: whitesmoke;
     margin:0;
     padding: 0;
-    text-align: center;
-    font-family: 'arial';
+    text-align: justify;
+    font-family: 'Garamond';
     position: absolute;
-    top: 70%;
-    Left: 85%; 
-    color: white; 
-    transform: translateX(-50%) translateY(-50%);
+    top: 20%;
+    Left: 55%;  
 
+}
+.nav a:hover{
+    background-color: #000;
+}
+.nav .current{
+    background-color:red;
 }

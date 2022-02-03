@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="page2-style.css">
+    </head>
+    <body>
+        <div class='container'>
+            <h1>Calorie Tracking</h1>
+            <form  id="form-screen" action="tracking.html" >
+            <fieldset>
+                <b><label for='foodName'>Food Name</label></b>
+                <input type="text" id='food-input' name='foodName' required>
+            </fieldset>
+
+            <fieldset>
+                <b><label for='calorieCount'>Amount of Calories</label></b>
+                <input type="number" id='calories-input' name='calorieCount' required>
+            </fieldset>
+
+            </form>
+
+            <div class='calorie-total'>
+                <h3>Total Calories:</h3>
+                <h3 id='calorie-left'>0</h3>
+            </div>
+
+            <div class="form-submit-button">
+                <button type="button" form="form-screen" value="Submit" id='screen-btn'>Submit</button>
+            </div>
+
+        </div>
+
+
+
+    </body>
+    <script src="js-tracking.js"></script>
+
+
+</html>

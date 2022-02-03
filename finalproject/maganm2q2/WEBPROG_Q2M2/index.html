@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class='flex-container'>
+            <h1>Calorie Tracker</h1>
+            <form  id="form-index" action="tracking.html" >
+
+
+                <fieldset>
+                    <b><label for='age-input'>Age</label></b>
+                    <input type="number" id='age-input' name='age' placeholder="14-60" max='80' min='14' required>
+                </fieldset>
+                <br>
+
+                <fieldset>
+                    <div class="gender-area">
+                        <b><legend>Gender</legend></b>
+                        <div id="form-checkbox">
+                                <input type="radio" id="male" name="radio-button" value='Male' required>
+                                <b><label for="male">Male</label></b>
+                        
+                         
+                                <input type="radio" id="female" name="radio-button" value='Female'  required>
+                                <b><label for="female">Female</label></b>
+ 
+                        </div>
+                    </div> 
+                </fieldset>
+                <br>
+
+
+                <fieldset>
+                    <b><label for='weight'>Weight</label></b>
+                    <input type="number" id='weight-input' name='weight' placeholder="kg" required>
+                </fieldset>
+                <br>
+
+
+                <fieldset>
+                    <b><label for='height'>Height</label></b>
+                    <input type="number" id='height-input' name='height' placeholder="cm" required>
+                </fieldset>
+                <br>
+
+                <fieldset>
+                    <div class="activity-group">
+                        <b><legend>Activity</legend></b>
+                        <select id="list">
+                            <option selected value="1">Sedentary ( no exercise)</option>
+                            <option value="2">Lightly active (light exercise)</option>
+                            <option value="3">Moderately active (moderate exercise/)</option>
+                            <option value="4">Active (hard exercise)</option>
+                            <option value="5">Very active (very intense exercise)</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <br>
+            </form >
+
+            <div class="form-submit-button">
+                <button type="submit" form="form-index" value="Submit" id='submit-btn'>Submit</button>
+            </div>
+
+        </div>
+
+        <script src="js-track.js"></script>
+    </body>
+
+
+
+</html>

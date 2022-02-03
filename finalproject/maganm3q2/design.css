@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans:ital,wght@1,400;1,700&family=Roboto+Slab:wght@500&display=swap");
+
+body{
+    background: linear-gradient(-45deg, #ee7752, #399c3e, #b44fbd, #b47f43);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lato", serif;
+}
+
+.container{
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.9);
+    padding: 100px;
+    border-radius: 15px;
+    width: 500px;
+    background-color: rgba(300, 300, 300, 0.9);
+}
+.center{
+    margin-top: 20%;
+}
+
+.button1{
+    text-decoration: none;
+    background-color: #A2FCFC;
+    padding: 10px;
+    color: 4px;
+    border-radius: 4px;
+}
+.buttons button{
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    margin-right: 10%;
+}
+.random-word-box{
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 20%;
+    justify-content: space-between;
+}
+.box-spacing{
+    margin-top: 10%;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.buttondesign{
+    text-decoration: none;
+    background-color: #e0c079;
+    padding: 10px;
+    color: 4px;
+    border-radius: 4px;
+}
+
+.animebutton{
+    width: 200%;
+    display: flex;
+    margin-left: 21%;
+}
+
+.animebutton button{
+    cursor: pointer;
+    font-size: 35px;
+    font-weight: 700;
+    margin-right: 10%;
+}
+
+
+
